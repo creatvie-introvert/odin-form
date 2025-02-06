@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin-Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container-left">
+            <img
+                src="images/halie-west-25xggax4bSA-unsplash.jpg"
+                alt="A close-up view of vibrant green fern leaves with delicate fronds extending outward, covered in small droplets of water, in a lush forest setting."
+                class="main-img"
+            >
+            <div id="logo-background">
+                <img
+                    src="images/odin-lined.png"
+                    alt="A minimalist, geometric-style white outline of a stylized animal mask, possibly resembling a wolf or a robotic creature, set against a transparent or dark background."
+                    class="logo"
+                >
+                <h1>Odin</h1>
+            </div>
+
+            <p class="citation"><cite>Photo by Halle West on Unsplash</cite></p>
+        </div>
+
+        <div class="container-right">
+            <div>
+                <p class="left-para">
+                    This is not a real online service! You know you need something like this in yur life to help
+                    you realise your deepest dreams. Sign up now to get started.
+                </p>
+
+                <p class="left-para">
+                    You know you want to.
+                </p>
+            </div>
+
+            <div class="form-container">
+                <form action="" method="post" id="create-account">
+                    <p>Let's do this!</p>
+                    
+                    <div class="label-group">
+                        <label for="first-name">First Name</label>
+                        <label for="last-name">Last Name</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" id="first-name" name="first-name">
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+
+                    <div class="label-group">
+                        <label for="email">Email</label>
+                        <label for="phone-number">Phone Number</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="email" id="email" name="email">
+                        <input type="tel" id="phone-number" name="phone-number">
+                    </div>
+
+                    <div class="label-group">
+                        <label for="password">Password</label>
+                        <label for="confirm-password">Confirm Password</label>
+                    </div>
+
+                    <div class="input-group">
+                        <input type="password" id="password" name="password" required>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                    </div>
+                </form>
+            </div>
+            <div class="btn-container">
+                <button type="submit" form="create-account">Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a> </p>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
